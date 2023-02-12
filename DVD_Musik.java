@@ -108,7 +108,7 @@ final public class DVD_Musik extends DVD {
 	
 	public void displayInfoMusik() {
 		for (int i =0; i<=id; i++) {
-			System.out.println("\n\n-----Info Album ["+i+"]-----");
+			System.out.println("\n-----Info Album ["+i+"]-----");
 			System.out.println("Judul : "+album[i].getJudul());
 			System.out.println("Penyanyi : "+album[i].getPenyanyi());
 			System.out.println("Produser : "+album[i].getProduser());
@@ -119,11 +119,4 @@ final public class DVD_Musik extends DVD {
 		}
 	}
 	
-	public static void main(String[] args) {
-		DVD_Musik album = new DVD_Musik();
-		
-		album.tambahAlbum();
-		album.displayInfoMusik();
-		
-	}
 }

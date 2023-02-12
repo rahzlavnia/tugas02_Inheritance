@@ -92,7 +92,7 @@ final public class DVD_Film extends DVD {
 	
 	public void displayInfoFilm() {
 		for (int i =0; i<=id; i++) {
-			System.out.println("\n\n-----Info DVD Film ["+i+"]-----");
+			System.out.println("\n-----Info DVD Film ["+i+"]-----");
 			System.out.println("Judul : "+film[i].getJudul());
 			System.out.println("Penyanyi : "+film[i].getPemeran());
 			System.out.println("Produser : "+film[i].getSutradara());
@@ -102,11 +102,4 @@ final public class DVD_Film extends DVD {
 		}
 	}
 	
-	public static void main(String[] args) {
-		DVD_Film movie = new DVD_Film();
-		
-		movie.tambahFilm();
-		movie.displayInfoFilm();
-		
-	}
 }
